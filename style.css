@@ -26,7 +26,7 @@ body {
   width: 100%;
 }
 
-.header .more-inf {
+.header__more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -42,7 +42,7 @@ body {
   width: 56%;
 }
 
-.task-row-wrapper {
+.add-task__input-wrapper {
   display: flex;
 }
 
@@ -102,7 +102,7 @@ body {
   margin: 0 0 20px;
 }
 
-input #new-task {
+.add-task__input {
   width: 318px;
 }
 
@@ -167,6 +167,9 @@ ul li.edit-mode .task__input-edit {
 ul li.edit-mode label {
   display: none;
 }
+
+
+/* @media */
 
 
 @media (max-width:768px) {
